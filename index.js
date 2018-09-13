@@ -18,5 +18,14 @@ function distanceTravelledInFeet(startBlock, endBlock){
   } else {
     return (endBlock - startBlock) * 264;
   }
-  
+
+}
+
+function calculatesFarePrice(start, destination){
+  let dist = distanceTravelledInFeet(startBlock, endBlock);
+  let price;
+  case dist < 400:
+    price = 0;
+    return price
+    break;
 }
