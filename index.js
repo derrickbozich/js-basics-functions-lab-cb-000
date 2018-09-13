@@ -18,5 +18,5 @@ function distanceTravelledInFeet(startBlock, endBlock){
   } else {
     return (endBlock - startBlock) * 264;
   }
-  return
+  
 }
