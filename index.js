@@ -22,17 +22,14 @@ function distanceTravelledInFeet(startBlock, endBlock){
 }
 
 function calculatesFarePrice(start, destination){
-  let dist = distanceTravelledInFeet(startBlock, endBlock);
+
   let price;
   switch (distanceTravelledInFeet(startBlock, endBlock)) {
     case < 400:
       price = 0;
       break;
-    default:
+  
 
   }
-  case dist < 400:
-    price = 0;
-    return price
-    break;
+
 }
