@@ -28,7 +28,7 @@ function calculatesFarePrice(start, destination){
     case < 400:
       price = 0;
       break;
-  
+
 
   }
 
