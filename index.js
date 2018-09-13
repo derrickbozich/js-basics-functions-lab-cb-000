@@ -11,3 +11,12 @@ function distanceFromHqInBlocks(start){
 function distanceFromHqInFeet(start){
   return distanceFromHqInBlocks(start) * 264;
 }
+
+function distanceTravelledInFeet(startBlock, endBlock){
+  if (startBlock > endBlock) {
+    return (startBlock - endBlock) * 264;
+  } else {
+    return (endBlock - startBlock) * 264;
+  }
+  return
+}
