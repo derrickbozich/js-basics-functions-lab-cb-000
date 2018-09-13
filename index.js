@@ -24,12 +24,15 @@ function distanceTravelledInFeet(startBlock, endBlock){
 function calculatesFarePrice(start, destination){
 
   let price;
-  switch (distanceTravelledInFeet(start, destination)) {
-    case < 400:
-      price = 0;
-      break;
+  let dist = distanceTravelledInFeet(start, destination)
 
-
+  if (dist < 400) {
+    return 0;
+  } else {
+    return
   }
+
+
+
 
 }
